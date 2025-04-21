@@ -1,0 +1,42 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1744596520",
+        "python_version": "3.9.13 (tags/v3.9.13:6de2ca5, May 17 2022, 16:36:42) [MSC v.1929 64 bit (AMD64)]",
+        "command_line_arguments": "D:\\Unity\\Projects\\Machine_Learning_Project\\venv\\Scripts\\mlagents-learn config/moveToGoal.yaml --initialize-from=MoveToGoal --run-id=MoveToGoal2",
+        "mlagents_version": "0.30.0",
+        "mlagents_envs_version": "0.30.0",
+        "communication_protocol_version": "1.5.0",
+        "pytorch_version": "2.6.0+cpu",
+        "numpy_version": "1.21.2",
+        "end_time_seconds": "1744596584"
+    },
+    "total": 63.493313699999995,
+    "count": 1,
+    "self": 0.006799299999997288,
+    "children": {
+        "run_training.setup": {
+            "total": 0.14437260000000007,
+            "count": 1,
+            "self": 0.14437260000000007
+        },
+        "TrainerController.start_learning": {
+            "total": 63.3421418,
+            "count": 1,
+            "self": 0.0003079000000099086,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 63.341805099999995,
+                    "count": 1,
+                    "self": 63.341805099999995
+                },
+                "TrainerController._save_models": {
+                    "total": 2.8799999995499093e-05,
+                    "count": 1,
+                    "self": 2.8799999995499093e-05
+                }
+            }
+        }
+    }
+}
